@@ -34,7 +34,7 @@ export default function Skills() {
 
   return (
     <section id="skills" className="section" ref={sectionRef}>
-      <div className="container">
+      <div className="container reveal">
         <div className="section-header">
           <span className="section-badge">
             <Cpu size={14} />
@@ -48,7 +48,7 @@ export default function Skills() {
 
         {/* Two-column animated skill bars */}
         <div className="skills-container">
-          <div className="skills-column">
+          <div className="skills-column reveal-left">
             {leftSkills.map((skill, index) => (
               <div key={index} className="skill-bar-wrapper">
                 <div className="skill-bar-header">
@@ -65,7 +65,7 @@ export default function Skills() {
             ))}
           </div>
 
-          <div className="skills-column">
+          <div className="skills-column reveal-right">
             {rightSkills.map((skill, index) => (
               <div key={index} className="skill-bar-wrapper">
                 <div className="skill-bar-header">

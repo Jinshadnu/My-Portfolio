@@ -67,7 +67,7 @@ export default function Stats() {
 
   return (
     <section className="section" ref={containerRef} style={{ paddingBottom: '3.5rem' }}>
-      <div className="container">
+      <div className="container reveal">
         <div className="stats-grid">
           {stats.map((stat, idx) => (
             <CounterItem

@@ -33,7 +33,7 @@ export default function Footer() {
 
   return (
     <footer className="footer">
-      <div className="container">
+      <div className="container reveal">
         <div className="footer-top">
           {/* Brand Info */}
           <div className="footer-brand">
