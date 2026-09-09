@@ -3,6 +3,7 @@ import { ArrowRight, Download, Send, Mail, ExternalLink, Code2, Smartphone, Shie
 import { GithubIcon, LinkedinIcon } from '../components/SocialIcons';
 import Typewriter from '../components/Typewriter';
 import { portfolioData } from '../data/portfolioData';
+import heroProfileImg from '../assets/hero-profile.jpg';
 
 export default function Hero() {
   const { personalInfo } = portfolioData;
@@ -150,7 +151,7 @@ export default function Hero() {
             <div className="hero-portrait-frame">
               <div className="hero-portrait-glow"></div>
               <img
-                src="/hero-profile.jpg"
+                src={heroProfileImg}
                 alt={personalInfo.name}
                 className="hero-portrait-image"
               />

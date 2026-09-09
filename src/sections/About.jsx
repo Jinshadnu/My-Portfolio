@@ -1,6 +1,7 @@
 import React from 'react';
 import { Download, CheckCircle2, Award, Sparkles, UserCheck } from 'lucide-react';
 import { portfolioData } from '../data/portfolioData';
+import aboutProfileImg from '../assets/profile.png';
 
 export default function About() {
   const { about, personalInfo } = portfolioData;
@@ -24,7 +25,7 @@ export default function About() {
           <div className="about-photo-wrapper reveal-left">
             <div className="about-card-frame">
               <img
-                src="/profile.png"
+                src={aboutProfileImg}
                 alt={personalInfo.name}
                 className="about-card-image"
                 loading="lazy"
