@@ -515,7 +515,7 @@ export const portfolioData = {
 
   stats: [
     { label: "Years Experience", value: 5, suffix: "+", description: "In Mobile & Software Engineering" },
-    { label: "Projects Delivered", value: 25, suffix: "+", description: "Enterprise, Consumer & Web Apps" },
+    { label: "Projects Delivered", value: 10, suffix: "+", description: "Enterprise, Consumer & Web Apps" },
     { label: "Crash-Free Benchmark", value: 99.8, suffix: "%", description: "Production Stability Standard" },
     { label: "Client Satisfaction", value: 100, suffix: "%", description: "On-Time & Quality Delivery" }
   ],
