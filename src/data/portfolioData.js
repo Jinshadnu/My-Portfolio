@@ -456,6 +456,68 @@ export const portfolioData = {
       liveDemo: "https://jinshadnu.github.io/Carepoint-Auto-Hub/"
     },
     {
+      id: "mikhael-gold",
+      title: "Mikhael Gold & Diamonds — Royal Kerala Jewellery",
+      category: "Web",
+      categoryLabel: "Luxury E-Commerce & Showcase",
+      shortDescription: "High-end responsive jewellery showcase and catalog for handcrafted BIS 916 hallmarked Kerala gold and certified diamonds.",
+      technologies: ["React", "Vite", "Tailwind CSS", "JavaScript", "Responsive Design", "WhatsApp API", "GitHub Pages"],
+      image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=1200&auto=format&fit=crop",
+      overview: "Mikhael Gold & Diamonds is an elegant digital storefront and online luxury showcase for an established Kerala jewellery house. The website exhibits handcrafted BIS-hallmarked 22K gold collections—including traditional bridal Kasu Mala, Palakka Mala, temple jewellery, diamond solitaires, and lightweight daily wear—with interactive product views and direct WhatsApp concierge consultations.",
+      problem: "Traditional gold buyers and wedding shoppers demand clear visual appreciation of craftsmanship, purity credentials (BIS 916 HUID), and quick personalized assistance, while high-value jewelry websites frequently suffer from slow image loads and cumbersome checkout hurdles.",
+      solution: "Engineered a fast, luxury-themed single-page web experience combining editorial Cormorant Garamond typography, optimized responsive media galleries, category filter tabs, interactive product inspection modals, and seamless one-click WhatsApp concierge inquiry flows.",
+      features: [
+        "Curated bridal suite & traditional Kerala collections (Kasu Mala, Palakka Mala, Nagapadam Thaali)",
+        "Interactive high-resolution product showcase with metal purity & gross weight specs",
+        "BIS 916 HUID hallmark and diamond certification verification badges",
+        "Dynamic category filtering (Bridal Suite, Necklaces, Bangles, Diamonds, Daily Wear)",
+        "Direct WhatsApp concierge consultation booking with pre-filled product SKU tags",
+        "Mobile-optimized responsive architecture with smooth animations and fast asset delivery"
+      ],
+      responsibilities: [
+        "Designed and developed the full web frontend using React, Vite, and Tailwind CSS",
+        "Implemented rich luxury typography, custom color schemes (imperial crimson & gold), and responsive layouts",
+        "Built interactive product showcase components with dynamic filtering and lightbox modal views",
+        "Integrated direct WhatsApp API routing for real-time customer and wholesale inquiries",
+        "Configured automated GitHub Actions CI/CD deployment pipeline to GitHub Pages"
+      ],
+      challenges: "Balancing ultra-high-resolution product photography of intricate gold textures with instant page loading and mobile responsiveness across various network speeds.",
+      results: "Delivered a polished, luxury brand presence with sub-second page transitions, resulting in increased digital reach and daily WhatsApp customer inquiries for bridal consultations.",
+      github: "https://github.com/Jinshadnu/mikhael-gold",
+      liveDemo: "https://jinshadnu.github.io/mikhael-gold/"
+    },
+    {
+      id: "tephra-emc",
+      title: "Tephra — MEP Contracting Corporate Portal",
+      category: "Web",
+      categoryLabel: "Engineering Corporate Portal",
+      shortDescription: "Corporate engineering portal for a leading Dubai MEP contracting firm delivering mechanical, electrical, plumbing, and HVAC systems across UAE.",
+      technologies: ["HTML5", "Modern CSS", "JavaScript", "GSAP Animations", "ScrollTrigger", "Responsive Web", "UAE Corporate SEO"],
+      image: "https://images.unsplash.com/photo-1541888946425-d0fbb186c5f7?q=80&w=1200&auto=format&fit=crop",
+      overview: "Official corporate digital platform for Tephra Electro Mechanical Contracting L.L.C (Tephra EMC), an established MEP contracting and engineering firm headquartered in Dubai, UAE. The portal showcases large-scale commercial, residential, and industrial engineering solutions across Mechanical (HVAC), Electrical, and Plumbing disciplines with interactive system diagrams and client enquiry workflows.",
+      problem: "Corporate engineering and infrastructure clients in Dubai require immediate technical credibility, transparent project records, adherence to UAE municipal/DEWA standards, and rapid RFQ (Request for Quotation) communication without clunky legacy interfaces.",
+      solution: "Developed a high-performance Swiss Neo-Grotesque corporate portal featuring a cinematic brand introduction sequence, GSAP-powered ScrollTrigger animations, interactive discipline blueprints, detailed project portfolios, and structured RFQ inquiry forms.",
+      features: [
+        "Comprehensive MEP discipline showcase: Mechanical (HVAC, VRF, Chilled Water), Electrical (DEWA compliance, Switchgear, Lighting), and Plumbing (Drainage, Firefighting)",
+        "Cinematic brand splash sequence powered by lightweight custom particle and vector canvas",
+        "Interactive engineering lightbox modals showcasing technical blueprints and specifications",
+        "Structured commercial project record gallery categorized by commercial, residential, and industrial sectors",
+        "Interactive Project Scope & RFQ inquiry module with direct lead capture and instant routing",
+        "Schema.org JSON-LD structured data and localization optimized for Dubai and UAE enterprise SEO"
+      ],
+      responsibilities: [
+        "Engineered the complete responsive web architecture with modern CSS and vanilla JavaScript",
+        "Implemented fluid GSAP and ScrollTrigger scroll interactions and custom cinematic splash engine",
+        "Designed technical discipline cards, architectural diagrams, and interactive lightbox modals",
+        "Integrated structured UAE corporate SEO schema, OpenGraph tags, and mobile-first performance optimizations",
+        "Configured high-availability production deployment and SSL security on custom domain (tephra.ae)"
+      ],
+      challenges: "Implementing a cinematic 60fps opening sequence and complex scroll-driven animations without compromising Core Web Vitals or mobile page load speeds.",
+      results: "Successfully launched in production at tephra.ae, providing Tephra EMC with a flagship digital presence that elevates corporate credibility with UAE developers, consultants, and enterprise facility managers.",
+      github: "https://github.com/Jinshadnu",
+      liveDemo: "https://tephra.ae/"
+    },
+    {
       id: "enterprise-dashboard",
       title: "Enterprise Sales & Admin Dashboard",
       category: "Web",
@@ -515,7 +577,7 @@ export const portfolioData = {
 
   stats: [
     { label: "Years Experience", value: 5, suffix: "+", description: "In Mobile & Software Engineering" },
-    { label: "Projects Delivered", value: 10, suffix: "+", description: "Enterprise, Consumer & Web Apps" },
+    { label: "Projects Delivered", value: 12, suffix: "+", description: "Enterprise, Consumer & Web Apps" },
     { label: "Crash-Free Benchmark", value: 99.8, suffix: "%", description: "Production Stability Standard" },
     { label: "Client Satisfaction", value: 100, suffix: "%", description: "On-Time & Quality Delivery" }
   ],

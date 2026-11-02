@@ -84,16 +84,11 @@ export default function Skills() {
         </div>
 
         {/* Categorized Tech Groupings */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1.5rem', marginBottom: '3rem' }}>
+        <div className="skills-categories-grid">
           {categories.map((cat, idx) => (
             <div
               key={idx}
-              style={{
-                background: 'var(--bg-secondary)',
-                border: '1px solid var(--border-subtle)',
-                borderRadius: '16px',
-                padding: '1.5rem'
-              }}
+              className="skills-category-card"
             >
               <h4 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--accent-navy)', marginBottom: '0.85rem' }}>
                 {cat.name}

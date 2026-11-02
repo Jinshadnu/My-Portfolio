@@ -108,17 +108,7 @@ export default function Resume() {
             </div>
 
             {/* Resume Download Box */}
-            <div
-              style={{
-                marginTop: '2.5rem',
-                padding: '2rem',
-                background: '#ffffff',
-                border: '1px solid var(--border-subtle)',
-                borderRadius: '20px',
-                textAlign: 'center',
-                boxShadow: 'var(--shadow-sm)'
-              }}
-            >
+            <div className="resume-download-card">
               <h4 style={{ fontSize: '1.2rem', fontWeight: 700, color: 'var(--accent-navy)', marginBottom: '0.5rem' }}>
                 Need a printable version?
               </h4>
